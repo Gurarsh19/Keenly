@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+
+  <!-- favicon-->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <script src="js/dashboard.js"></script>
+
+<body>
+  <!--- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">Dashboard</a>
+      </h1>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#services" class="navbar-link" data-nav-link>Schedule</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#services" class="navbar-link" data-nav-link>Resources</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#features" class="navbar-link" data-nav-link>Chat</a>
+          </li>
+          </li>
+        </ul>
+      </nav>
+
+
+      <button class="btn btn-secondary" id="logoutAction">Logout</button>
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!-- Courses tabs -->
+      <section class="section service" id="services">
+        <div class="container">
+          <br /><br />
+          <ul class="about-list">
+            <li>
+              <div class="about-card about-card-1">
+                <figure class="card-banner">
+                  <img src="images/about-img-3.svg" width="94" height="94" loading="lazy" alt="Visual Design II" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Visual Design II</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Learn user interface design aspects and principles
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-2">
+                <figure class="card-banner">
+                  <img src="images/about-img-2.svg" width="94" height="94" loading="lazy" alt="Immersive Experience" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Immersive Experience</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Learn 3D softwares along with VR and AR technology
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <br /><br />
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="images/service-1.gif" width="728" height="344" loading="lazy" alt="Resources"
+                    class="w-100" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Resources</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Blogs, Videos and many more.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="images/service-2.gif" width="728" height="344" loading="lazy" alt="Chat" class="w-100" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Chat</a>
+                  </h3>
+
+                  <p class="card-text">
+                    connect with classmates
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="images/service-3.gif" width="728" height="344" loading="lazy" alt="Schedule"
+                    class="w-100" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Schedule</a>
+                  </h3>
+
+                  <p class="card-text">
+                    remain up-to-date
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+  <script src="./js/dashboard.js"></script>
+</body>
+
+</html>

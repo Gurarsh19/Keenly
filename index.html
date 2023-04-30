@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keenly</title>
+
+  <!-- favicon-->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+
+  <!--- preload image-->
+  <link rel="preload" as="image" href="images/hero-banner.png" />
+</head>
+
+<body id="top">
+  <!-- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">Keenly</a>
+      </h1>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navigation ends here -->
+
+      <a href="login.html">
+        <button class="btn btn-secondary">Get Started</button>
+      </a>
+
+      <!-- Mobile view  icon for responsive design; we will add this when javascript will be added -->
+      <!-- <button
+          class="nav-toggle-btn"
+          aria-label="Toggle menu"
+          data-nav-toggle-btn
+        >
+          <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+          <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        </button> -->
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!--- #HERO -->
+      <section class="section hero" id="home">
+        <div class="container">
+          <figure class="hero-banner">
+            <img src="images/stu.png" alt="hero banner" class="w-100" />
+          </figure>
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">
+              Empowering learning anytime, anywhere.
+            </h2>
+
+            <p class="section-text">
+              Say goodbye to the hassle of logging into multiple platforms or
+              remembering multiple passwords. Keenly makes it easy to access
+              all learning resources and take in one channel.
+            </p>
+
+            <form class="hero-form" id="subscribeForm">
+              <input type="email" name="email" placeholder="Enter Your Email" required class="input-field" />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- #ABOUT  -->
+
+      <section class="section about" id="about">
+        <div class="container">
+          <h2 class="h2 section-title">Who we are</h2>
+
+          <p class="section-text">Highly successfull startup company</p>
+
+          <ul class="about-list">
+            <li>
+              <div class="about-card about-card-1">
+                <figure class="card-banner">
+                  <img src="images/about-img-1.svg" width="94" height="94" loading="lazy" alt="Sponsors" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sponsors</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Toronto & Waterloo University, Ontario
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-2">
+                <figure class="card-banner">
+                  <img src="images/about-img-2.svg" width="94" height="94" loading="lazy" alt="Launched" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Launched</a>
+                  </h3>
+
+                  <p class="card-text">
+                    30 September 2022 in Kitchener, Ontario
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-3">
+                <figure class="card-banner">
+                  <img src="images/about-img-3.svg" width="94" height="94" loading="lazy" alt="Operations" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Operations</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Learning Management Solutions in Education Industry
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-4">
+                <figure class="card-banner">
+                  <img src="images/about-img-4.svg" width="94" height="94" loading="lazy" alt="Achievements" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Achievements</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Best Startup of the Year & Highest Fundraiser
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+          <h2 class="h2 section-title">Our Solutions For You</h2>
+
+          <p class="section-text">
+            Your Knowledge Companion for All Your Queries
+          </p>
+
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="images/service-1.gif" width="728" height="344" loading="lazy" alt="support" class="w-100" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Support</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Give opportunity to students and instructor to interact
+                    among themselves for better understanding
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="images/service-2.gif" width="728" height="344" loading="lazy" alt="Engagement"
+                    class="w-100" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Engagement</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Access to program and course materials along with external
+                    assets such as tutorials, blogs, PDFs and many more.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="images/service-3.gif" width="728" height="344" loading="lazy" alt="Platform"
+                    class="w-100" />
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> Platform</a>
+                  </h3>
+
+                  <p class="card-text">
+                    All-in-one platform where students can allowing them to
+                    communicate with professors and interact with classmates.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--- #FEATURES -->
+
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="features-content">
+            <h2 class="h2 section-title">
+              Our Awesome Features To Serve You
+            </h2>
+
+            <p class="section-text">
+              Planning, tracking and accessing has never been easier. We make
+              it easiest for you through the mobile application.
+            </p>
+
+            <ul class="features-list">
+              <li class="features-item">
+                <img src="images/features-icon-1.svg" width="26" height="26" loading="lazy" class="item-icon" />
+
+                <h3 class="item-title">Upload Photos, Videos</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="images/features-icon-2.svg" width="26" height="26" loading="lazy" class="item-icon" />
+
+                <h3 class="item-title">See your progress</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="images/features-icon-3.svg" width="26" height="26" loading="lazy" class="item-icon" />
+
+                <h3 class="item-title">Linkup with classmates</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="images/features-icon-4.svg" width="26" height="26" loading="lazy" class="item-icon" />
+
+                <h3 class="item-title">Keep on track</h3>
+              </li>
+            </ul>
+          </div>
+
+          <div class="banner-wrapper">
+            <figure class="features-banner one">
+              <img src="images/features-banner-1.gif" width="600" height="500" loading="lazy" alt="features image"
+                class="w-100" />
+            </figure>
+
+            <figure class="features-banner two">
+              <img src="images/features-banner-2.png" loading="lazy" alt="features image" class="w-100" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!--- #APP  -->
+
+      <section class="section app">
+        <div class="container">
+          <div class="app-content">
+            <h2 class="h2 section-title">Download Our Mobile App</h2>
+
+            <p class="section-text">
+              Keenly gives you the features that you have never seen before in
+              any available software.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">
+                <img src="images/play-store.svg" width="30" height="31" loading="lazy" alt="play store icon" />
+
+                <span class="span">
+                  GET IT ON
+                  <strong class="strong">Google Play</strong>
+                </span>
+              </a>
+
+              <a href="#" class="btn btn-secondary">
+                <img src="images/apple-store.svg" width="30" height="31" loading="lazy" alt="apple store icon" />
+
+                <span class="span">
+                  GET IT ON
+                  <strong class="strong">Apple Store</strong>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <figure class="app-banner">
+            <img src="images/eds.jpg" width="748" height="536" loading="lazy" alt="illustration" class="w-100" />
+          </figure>
+        </div>
+      </section>
+
+      <!--- #SUPPORT   -->
+
+      <section class="section support">
+        <div class="container">
+          <div class="support-content">
+            <h2 class="h2 section-title">24/7 Customer Support</h2>
+
+            <p class="section-text">
+              Our team is dedicated to providing you with outstanding service.
+              We also offer a range of self-learning tools in our support
+              center
+            </p>
+          </div>
+
+          <a href="contact.html" class="btn btn-primary">Contact Us Now</a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!--- #FOOTER -->
+
+  <footer class="footer">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">Keenly</a>
+
+          <figure class="footer-img">
+            <img src="images/footer-img.png" width="264" height="226" loading="lazy" class="w-100" />
+          </figure>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Education</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Finance</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Health</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Trading</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Transportation</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="index.html#service" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="index.html#features" class="footer-link">Features</a>
+          </li>
+
+          <li>
+            <a href="login.html" class="footer-link">Login</a>
+          </li>
+
+          <li>
+            <a href="signup.html" class="footer-link">Signup</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-1.svg" width="16" height="16" loading="lazy" />
+
+            <p class="footer-link">Call Us: +(332) 732-1424</p>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-2.svg" width="16" height="16" loading="lazy" />
+
+            <p class="footer-link">Kitchener, Ontario, N2N 2H1</p>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-3.svg" width="16" height="16" loading="lazy" />
+
+            <p class="footer-link">contact@keenly.com</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

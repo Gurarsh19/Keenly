@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+
+  <!-- favicon-->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+
+</head>
+
+<body>
+  <!--- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">Keenly</a>
+      </h1>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="login.html">
+        <button class="btn btn-secondary">Get Started</button>
+      </a>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!--- #HERO -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+          <figure class="hero-banner">
+            <img src="images/stu.png" width="804" height="643" loading="lazy" alt="hero banner" class="w-100" />
+          </figure>
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">Contact Us</h2>
+
+            <form class="hero-form" id="contactForm">
+              <p class="section-text">E-mail</p>
+              <input type="email" name="email" placeholder="Enter your email" required class="input-field" />
+              <br />
+              <p class="section-text">Message</p>
+              <input type="text" name="message" placeholder="Enter your message here" required class="input-field" />
+            </form>
+            <button class="btn btn-secondary" form="contactForm">Submit</button>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <script src="js/contact.js"></script>
+</body>
+
+</html>
